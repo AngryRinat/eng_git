@@ -1,7 +1,7 @@
 import os
 
 # folder_path = 'disk:\\folder\\another-folder'
-folder_path = 'd:\\downloads'
+folder_path = 'd:\\1'
 
 
 def get_file_paths_list() -> list:

@@ -1,7 +1,7 @@
 import os
 
 # folder_path = 'disk:\\folder\\another-folder'
-folder_path = 'd:\\downloads'
+folder_path = 'd:\\Ринат\Оснастка'
 
 
 def get_subfolder_paths_list() -> list:
@@ -25,6 +25,8 @@ def get_subfolder_names_list() -> list:
 def get_subfolder_names_generator():
     for sp in get_subfolder_paths_generator():
         yield os.path.split(sp)[-1]
+
+
 
 
 print('Subfolder paths list:\n', get_subfolder_paths_list())

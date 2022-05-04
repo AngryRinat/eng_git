@@ -1,7 +1,7 @@
 import os
 
-folder_path = 'disk:\\folder\\another-folder'
-# folder_path = 'd:\\downloads'
+folder_path = 'D:\\1'
+
 
 # key names will be folder names!
 extensions = {
@@ -62,6 +62,7 @@ def get_file_paths():
 def sort_files():
     file_paths = get_file_paths()
     ext_items_list = list(extensions.items())
+
 
     for fp in file_paths:
         extension = fp.split('.')[-1]
